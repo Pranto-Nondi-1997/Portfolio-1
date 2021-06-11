@@ -1,0 +1,517 @@
+                                                                                                                                        * {
+                                                                                                                                            box-sizing: border-box;
+                                                                                                                                            font-family: 'Roboto', sans-serif;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        body {
+                                                                                                                                            margin: 0;
+                                                                                                                                        }
+                                                                                                                                        /* navbar starts here */
+                                                                                                                                        
+                                                                                                                                        .nav_heading {
+                                                                                                                                            margin-top: 40px;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .nav_heading h1 {
+                                                                                                                                            font-size: 2rem;
+                                                                                                                                            text-align: center;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .nav_logo {}
+                                                                                                                                        
+                                                                                                                                        .nav_logo img {
+                                                                                                                                            border-radius: 150px;
+                                                                                                                                            width: 150px;
+                                                                                                                                            height: auto%;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .nav_menu {
+                                                                                                                                            margin-top: 40px;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .nav_menu a {
+                                                                                                                                            font-size: 1.2rem;
+                                                                                                                                            text-decoration: none;
+                                                                                                                                            font-weight: bold;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        [class*="col-"] {
+                                                                                                                                            float: left;
+                                                                                                                                        }
+                                                                                                                                        /*for mobile*/
+                                                                                                                                        
+                                                                                                                                        [class*="col-"] {
+                                                                                                                                            width: 100%;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .navbar {
+                                                                                                                                            background-color: rgba(0, 128, 0, 0.3);
+                                                                                                                                            padding: 2% 10%;
+                                                                                                                                            text-align: center;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .navbar h1 {
+                                                                                                                                            margin: 0;
+                                                                                                                                            padding: 2px 10px;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .nav_menu {
+                                                                                                                                            display: flex;
+                                                                                                                                            flex-direction: column;
+                                                                                                                                            text-transform: uppercase;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .nav_menu a {
+                                                                                                                                            background-color: #CDA684;
+                                                                                                                                            border-radius: 50px;
+                                                                                                                                            margin: 10px 10px;
+                                                                                                                                            padding: 5px;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .nav_menu a:hover {
+                                                                                                                                            background-color: #e9a09b;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .navbar::after {
+                                                                                                                                            display: table;
+                                                                                                                                            content: '';
+                                                                                                                                            clear: both;
+                                                                                                                                        }
+                                                                                                                                        /* navbar end here */
+                                                                                                                                        /* profile starts here */
+                                                                                                                                        
+                                                                                                                                        .profile {
+                                                                                                                                            text-align: center;
+                                                                                                                                            padding: 100px 50px;
+                                                                                                                                            position: relative;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .profile .top-weather-icon {
+                                                                                                                                            position: absolute;
+                                                                                                                                            right: 1px;
+                                                                                                                                            top: 1px;
+                                                                                                                                            transition: 2s;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .profile .top-weather-icon:hover {
+                                                                                                                                            transform: scale(1.3);
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .profile .bootom-weather-icon {
+                                                                                                                                            position: absolute;
+                                                                                                                                            left: 5px;
+                                                                                                                                            top: 370px;
+                                                                                                                                            transition: transform 2s;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .profile .bootom-weather-icon:hover {
+                                                                                                                                            transform: scale(1.3);
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .profile .profile_desc {
+                                                                                                                                            margin: 0 auto;
+                                                                                                                                            width: 90%;
+                                                                                                                                            padding-left: 10px;
+                                                                                                                                            color: gray;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .profile_desc h1 {
+                                                                                                                                            font-family: 'Satisfy', cursive;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .profile::after {
+                                                                                                                                            content: '';
+                                                                                                                                            clear: both;
+                                                                                                                                            display: table;
+                                                                                                                                        }
+                                                                                                                                        /* profile end here */
+                                                                                                                                        /* about me starts here */
+                                                                                                                                        
+                                                                                                                                        .about-me {
+                                                                                                                                            text-align: center;
+                                                                                                                                            background-color: #B2D9B2;
+                                                                                                                                            color: rgb(19, 15, 15);
+                                                                                                                                            font-family: 'Open Sans Condensed', sans-serif;
+                                                                                                                                            font-size: 1.1rem;
+                                                                                                                                            padding-left: 10px;
+                                                                                                                                            margin: 0 5px;
+                                                                                                                                            padding-right: 10px;
+                                                                                                                                            padding-bottom: 10px;
+                                                                                                                                            margin-top: 30px;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .about-me h1 {
+                                                                                                                                            padding-top: 10px;
+                                                                                                                                            margin-top: 10px;
+                                                                                                                                            font-size: 3rem;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .about-profile img {
+                                                                                                                                            width: 250px;
+                                                                                                                                            height: 250px;
+                                                                                                                                            margin: 10px;
+                                                                                                                                            border: 10px;
+                                                                                                                                            margin: 10px;
+                                                                                                                                            border-radius: 100%;
+                                                                                                                                            -webkit-border-radius: 100%;
+                                                                                                                                            -moz-border-radius: 100%;
+                                                                                                                                            -ms-border-radius: 100%;
+                                                                                                                                            -o-border-radius: 100%;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .about-profile {
+                                                                                                                                            padding-top: 10px;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .about-desc p {
+                                                                                                                                            text-align: left;
+                                                                                                                                            font-weight: bold;
+                                                                                                                                            padding-left: 5px;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .about-desc-p {
+                                                                                                                                            width: 100%;
+                                                                                                                                            padding-left: 5px;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        a {
+                                                                                                                                            color: rgb(19, 15, 15);
+                                                                                                                                            font-weight: bold;
+                                                                                                                                            text-decoration: none;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .CV-button {
+                                                                                                                                            padding: 10px;
+                                                                                                                                            background-color: goldenrod;
+                                                                                                                                            width: 170px;
+                                                                                                                                            cursor: pointer;
+                                                                                                                                            color: black;
+                                                                                                                                            font-weight: bold;
+                                                                                                                                            border: 1px solid;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .CV-button:hover {
+                                                                                                                                            background-color: gray;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .dotted-hr {
+                                                                                                                                            border: dotted 5px white;
+                                                                                                                                            border-bottom: none;
+                                                                                                                                            margin: 15px auto;
+                                                                                                                                            width: 150px;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .about-me::after {
+                                                                                                                                            content: " ";
+                                                                                                                                            clear: both;
+                                                                                                                                            display: table;
+                                                                                                                                        }
+                                                                                                                                        /* about me ends here */
+                                                                                                                                        /* skill activities starts here */
+                                                                                                                                        
+                                                                                                                                        .skill-activity {
+                                                                                                                                            justify-content: center;
+                                                                                                                                            align-items: center;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .works-skill {
+                                                                                                                                            background-color: rgb(181, 195, 209);
+                                                                                                                                            /* height: 450px;*/
+                                                                                                                                            width: 100%;
+                                                                                                                                            padding-left: 10px;
+                                                                                                                                            padding-right: 10px;
+                                                                                                                                            border-radius: 5px;
+                                                                                                                                            border: 1px;
+                                                                                                                                            margin-top: 10px;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .card-title {
+                                                                                                                                            background-color: rgb(101, 109, 102);
+                                                                                                                                            text-align: center;
+                                                                                                                                            color: black;
+                                                                                                                                            transition: 0.2s;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .card-title:hover {
+                                                                                                                                            box-shadow: 2px 5px 8px 5px black;
+                                                                                                                                            ;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .card-icon {
+                                                                                                                                            text-align: center;
+                                                                                                                                            margin: 10px 0px;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .card-icon img {
+                                                                                                                                            width: 100px;
+                                                                                                                                            border: 5px solid white;
+                                                                                                                                            border-radius: 100px;
+                                                                                                                                            transition: 0.2s;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .card-icon img:hover {
+                                                                                                                                            box-shadow: 2px 5px 8px 5px black;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .skill-activity .works-skill {
+                                                                                                                                            transition: 0.2s;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .works-skill:hover {
+                                                                                                                                            box-shadow: 0px 5px 8px 5px black;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .education-skill {
+                                                                                                                                            background-color: rgb(181, 195, 209);
+                                                                                                                                            /* height: 450px; */
+                                                                                                                                            width: 100%;
+                                                                                                                                            padding-left: 10px;
+                                                                                                                                            padding-right: 10px;
+                                                                                                                                            margin-top: 10px;
+                                                                                                                                            border-radius: 5px;
+                                                                                                                                            border: 1px;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .skill-activity .education-skill {
+                                                                                                                                            transition: 0.2s;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .education-skill:hover {
+                                                                                                                                            box-shadow: 0px 5px 8px 5px black;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .language-skill {
+                                                                                                                                            background-color: rgb(181, 195, 209);
+                                                                                                                                            height: auto;
+                                                                                                                                            width: 100%;
+                                                                                                                                            padding-left: 10px;
+                                                                                                                                            padding-bottom: 30px;
+                                                                                                                                            padding-right: 10px;
+                                                                                                                                            margin-top: 10px;
+                                                                                                                                            border-radius: 5px;
+                                                                                                                                            border: 1px;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .skill-activity .language-skill {
+                                                                                                                                            transition: 0.2s;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .language-skill:hover {
+                                                                                                                                            box-shadow: 0px 5px 8px 5px black;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .language-skill-container {
+                                                                                                                                            margin: 10px 0;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .language-skill-container li {
+                                                                                                                                            list-style-type: none;
+                                                                                                                                            padding: 10px 0px;
+                                                                                                                                            margin: 10px 0px;
+                                                                                                                                            position: relative;
+                                                                                                                                            text-transform: uppercase;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .language-skill-container li ::before {
+                                                                                                                                            content: '';
+                                                                                                                                            position: absolute;
+                                                                                                                                            width: 100%;
+                                                                                                                                            height: 10px;
+                                                                                                                                            background-color: rgb(29, 25, 25);
+                                                                                                                                            top: calc(100% + 4px);
+                                                                                                                                            border-radius: 1000px;
+                                                                                                                                            left: 0px;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .language-skill-container li ::after {
+                                                                                                                                            content: '';
+                                                                                                                                            position: absolute;
+                                                                                                                                            width: 0;
+                                                                                                                                            height: 10px;
+                                                                                                                                            background-color: rgb(20, 230, 48);
+                                                                                                                                            top: calc(100% + 4px);
+                                                                                                                                            border-radius: 1000px;
+                                                                                                                                            left: 0px;
+                                                                                                                                            animation-duration: 2s;
+                                                                                                                                            animation-fill-mode: forwards;
+                                                                                                                                            animation-iteration-count: infinite;
+                                                                                                                                            animation-timing-function: linear;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .language-skill-container li .html::after {
+                                                                                                                                            animation-name: html;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        @keyframes html {
+                                                                                                                                            to {
+                                                                                                                                                width: 70%;
+                                                                                                                                            }
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .language-skill-container li .css::after {
+                                                                                                                                            animation-name: css;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        @keyframes css {
+                                                                                                                                            to {
+                                                                                                                                                width: 50%;
+                                                                                                                                            }
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .language-skill-container li .javascript::after {
+                                                                                                                                            animation-name: javascript;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        @keyframes javascript {
+                                                                                                                                            to {
+                                                                                                                                                width: 40%;
+                                                                                                                                            }
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .skill-activity::after {
+                                                                                                                                            content: '';
+                                                                                                                                            clear: both;
+                                                                                                                                            display: table;
+                                                                                                                                        }
+                                                                                                                                        /* skill activities ends here */
+                                                                                                                                        /* acheivments starts here */
+                                                                                                                                        
+                                                                                                                                        .achievments {
+                                                                                                                                            margin: 10px 5px;
+                                                                                                                                            background-color: cadetblue;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .achivments-container {
+                                                                                                                                            background-color: cadetblue;
+                                                                                                                                            text-align: left;
+                                                                                                                                            height: 300px;
+                                                                                                                                            padding-right: 5px;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        h1 {
+                                                                                                                                            text-align: center;
+                                                                                                                                            font-size: 1.6rem;
+                                                                                                                                            color: black;
+                                                                                                                                            font-weight: bold;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .achievments::after {
+                                                                                                                                            content: '';
+                                                                                                                                            display: table;
+                                                                                                                                            clear: both;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .Contact-me {
+                                                                                                                                            text-align: center;
+                                                                                                                                            padding: 15px 15px;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .Contact-me input,
+                                                                                                                                        textarea {
+                                                                                                                                            text-align: center;
+                                                                                                                                            padding: 10px;
+                                                                                                                                            width: 100%;
+                                                                                                                                            height: auto;
+                                                                                                                                            border: none;
+                                                                                                                                            resize: none;
+                                                                                                                                            border-radius: 5px;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        button {
+                                                                                                                                            padding: 10px;
+                                                                                                                                            margin: 20px;
+                                                                                                                                            border-radius: 10px;
+                                                                                                                                            background-color: cyan;
+                                                                                                                                            cursor: pointer;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .button {
+                                                                                                                                            width: 100px;
+                                                                                                                                            font-weight: bold;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .contact-links {
+                                                                                                                                            padding: 10px;
+                                                                                                                                            height: 290px;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .link-container {
+                                                                                                                                            text-align: center;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .btn {
+                                                                                                                                            background-color: rgb(233, 220, 220);
+                                                                                                                                            border-radius: 50px;
+                                                                                                                                            border: 1px solid white;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .btn:hover {
+                                                                                                                                            background-color: gray;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .icon-design1 {
+                                                                                                                                            color: red;
+                                                                                                                                            font-size: 2rem;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .icon-design2 {
+                                                                                                                                            color: green;
+                                                                                                                                            font-size: 2rem;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .icon-design3 {
+                                                                                                                                            color: rgb(50, 18, 233);
+                                                                                                                                            font-size: 2rem;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .head-balance {
+                                                                                                                                            font-size: 1.4rem;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .achivments::after {
+                                                                                                                                            content: '';
+                                                                                                                                            display: table;
+                                                                                                                                            clear: both;
+                                                                                                                                        }
+                                                                                                                                        /* acheivments ends here  */
+                                                                                                                                        /* footer starts here */
+                                                                                                                                        
+                                                                                                                                        .end-part {
+                                                                                                                                            background-color: #0f0c0c;
+                                                                                                                                            margin: 5px;
+                                                                                                                                            padding: 10px;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .end-menu {
+                                                                                                                                            padding: 5px;
+                                                                                                                                            margin: 5px;
+                                                                                                                                            text-align: center;
+                                                                                                                                            border: 5px;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .end-menu a {
+                                                                                                                                            display: block;
+                                                                                                                                            font-size: 1rem;
+                                                                                                                                            color: white;
+                                                                                                                                            padding: 5px;
+                                                                                                                                            margin: 5px;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .end-menu a:hover {
+                                                                                                                                            background-color: gray;
+                                                                                                                                            border-radius: 100px;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .end-desc {
+                                                                                                                                            color: white;
+                                                                                                                                            padding: 5px;
+                                                                                                                                            margin: 5px;
+                                                                                                                                            text-align: center;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .end-part::after {
+                                                                                                                                            content: ' ';
+                                                                                                                                            display: table;
+                                                                                                                                            clear: both;
+                                                                                                                                        }
+                                                                                                                                        /* footer ends here */

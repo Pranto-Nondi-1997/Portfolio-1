@@ -1,0 +1,234 @@
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+
+/* navbar starts here */
+
+.nav_logo {
+    float: left;
+}
+
+.nav_heading {
+    float: left;
+}
+
+.nav_menu {
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nav_menu a {
+    background-color: transparent;
+    margin: 10px 5px;
+    padding: 0 10px;
+}
+
+
+/* navbar end here */
+
+
+/* profile starts here */
+
+.profile img {}
+
+.profile_desc p {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.profile_desc h1 {
+    font-size: 2.5rem;
+}
+
+.profile .top-weather-icon {
+    transition: transform 2s;
+}
+
+.profile .top-weather-icon:hover {
+    transform: scale(1.5);
+}
+
+.profile .bootom-weather-icon {
+    transition: transform 2s;
+}
+
+.profile .bootom-weather-icon:hover {
+    transform: scale(1.5);
+}
+
+
+/* profile end here */
+
+
+/* about me starts here */
+
+.about-me .about-profile {
+    margin-top: 60px;
+}
+
+.about-profile img {
+    width: 260px;
+    height: 260px;
+}
+
+.dekstop-design p {
+    text-align: center;
+}
+
+.CV-button {
+    width: 250px;
+}
+
+.about-me::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* about me ends here */
+
+
+/* skill activities starts here */
+
+.skill-activity {
+    padding: 20px 20px;
+    margin: 10px 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 5px auto;
+    /* flex-direction: row; */
+    /* justify-content: center;
+    align-items: center; */
+    width: auto;
+}
+
+.works-skill {
+    width: 33%%;
+    margin: 10px;
+    height: 420px;
+}
+
+.education-skill {
+    width: 33%%;
+    margin: 10px;
+    height: 420px;
+}
+
+.language-skill {
+    width: 33%%;
+    margin: 10px;
+    height: 420px;
+}
+
+.skill-activity::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+
+/* skill activities ends here */
+
+
+/* acheivments starts here */
+
+.achivments-container {
+    padding-left: 40px;
+}
+
+.achivments-container ol li {
+    padding: 8px;
+}
+
+.Contact-me {
+    padding-top: 1px;
+    padding-left: 40px;
+}
+
+.button {
+    width: 150px;
+    font-weight: bold;
+}
+
+.contact-links {
+    padding:
+}
+
+
+/* acheivments ends here  */
+
+
+/* endpart starts here */
+
+.end-part {
+    display: flex;
+}
+
+.end-menu a {
+    display: inline;
+    font-size: 1.4rem;
+}
+
+.end-menu {
+    margin-top: 27px;
+    padding: 5px;
+}
+
+.end-desc {
+    font-size: 1.4rem;
+}
+
+.end-part::after {
+    content: ' ';
+    display: table;
+    clear: both;
+}
+
+
+/* endpart ends here */
